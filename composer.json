@@ -1,0 +1,28 @@
+{
+    "name": "renegadik/botality",
+    "description": "Multi-platform bot framework for Telegram, Discord, etc.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "renegadik\\botality\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "renegadik",
+            "email": "renegadik@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.1",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "keywords": ["bot", "telegram", "discord", "framework"],
+    "homepage": "https://github.com/renegadik/botality-php"
+}
