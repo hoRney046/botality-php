@@ -14,15 +14,23 @@
             "email": "renegadik@example.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "version": "1.0.0",
     "require": {
         "php": "^8.1",
-        "vlucas/phpdotenv": "^5.6"
+        "vlucas/phpdotenv": "^5.6",
+        "symfony/http-client": "7.3.x-dev",
+        "nyholm/psr7": "^1.8@dev",
+        "longman/telegram-bot": "v1.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
     "keywords": ["bot", "telegram", "discord", "framework"],
-    "homepage": "https://github.com/renegadik/botality-php"
+    "homepage": "https://github.com/renegadik/botality-php",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
